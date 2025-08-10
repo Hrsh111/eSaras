@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="productsGridView" type="id" />
+    <item name="productsTextView" type="id" />
+    <item name="productImage" type="id" />
+    <item name="productTitle" type="id" />
+    <item name="productPrice" type="id" />
+    <item name="bannerImage" type="id" />
+    <item name="bannerViewPager" type="id" />
+    <item name="productsRecyclerView" type="id" />
+    <item name="drawerToggleButton" type="id" />
+</resources>

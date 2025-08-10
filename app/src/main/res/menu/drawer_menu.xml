@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/categories">
+        <menu>
+            <item
+                android:id="@+id/nav_home_living"
+                android:icon="@drawable/home_living"
+                android:title="@string/home_and_living" />
+            <item
+                android:id="@+id/nav_women"
+                android:icon="@drawable/women"
+                android:title="@string/women" />
+            <item
+                android:id="@+id/nav_men"
+                android:icon="@drawable/men"
+                android:title="@string/men" />
+            <item
+                android:id="@+id/nav_kids"
+                android:icon="@drawable/kids"
+                android:title="@string/kids" />
+            <item
+                android:id="@+id/nav_personal_care"
+                android:icon="@drawable/personalcare"
+                android:title="@string/personal_care" />
+            <item
+                android:id="@+id/nav_food_items"
+                android:icon="@drawable/foods"
+                android:title="@string/food_items" />
+            <item
+                android:id="@+id/nav_festival"
+                android:icon="@drawable/festival"
+                android:title="@string/festival" />
+        </menu>
+    </item>
+
+    <item android:title="@string/preferences">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:title="@string/language_english" />
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/nav_social_media"
+                android:title="@string/social_media" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="@string/facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="@string/twitter" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="@string/instagram" />
+        </menu>
+    </item>
+</menu>

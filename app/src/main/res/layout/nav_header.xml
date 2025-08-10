@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/accountContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@color/creme">
+
+        <ImageView
+            android:id="@+id/accountIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/account"
+            android:contentDescription="Account icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/signInText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:textSize="20sp"
+                android:textColor="#800000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/accountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to your account"
+                android:textSize="14sp"
+                android:textColor="#800000"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/arrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_right_24"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Arrow button"
+            android:padding="8dp"/>
+    </LinearLayout>
+</layout>
